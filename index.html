@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creación de paginas web</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main class="render">
+      <section class="hero">
+        <h1>PÁGINAS WEB 🌐</h1>
+      </section>
+      <section class="welcome">
+        <p class="p">
+          🌍 En esta sección, te damos una introducción a los conceptos de
+          publicación y hospedaje, elementos clave para que una página web esté
+          accesible en internet. Explorarás qué es un dominio, cómo funciona el
+          hosting y algunos principios básicos para optimizar el rendimiento del
+          sitio. <br /><br />
+          📤 Aprender sobre estos elementos te ayudará a entender cómo una
+          página pasa de ser un proyecto local a un sitio visible para todos en
+          la web. <br /><br />
+          ⚙️ Con estos conceptos claros, tendrás una base sólida sobre cómo
+          llevar tu página al siguiente nivel y hacerla accesible al público.
+        </p>
+      </section>
+      <section class="content">
+        <h2>Contenido</h2>
+        <ul class="table">
+          <li>¿Qué es una Página Web?</li>
+          <li>Estructura de una Página Web</li>
+          <li>Planificación</li>
+          <li>Desarrollo Web</li>
+          <li>Publicación y Hospedaje</li>
+        </ul>
+      </section>
+      <section class="introduction">
+        <h2>¿Qué es una Página Web? 🌐</h2>
+        <p class="p">
+          Una página web es un documento digital que contiene información de
+          todo tipo (texto, imágenes, videos, enlaces, etc.) y es accesible
+          desde internet a través de un navegador web. Las páginas web se
+          agrupan en sitios web, que suelen estar organizados en varias
+          secciones o páginas conectadas entre sí. Existen distintos tipos de
+          páginas web según su propósito y cómo están diseñadas para funcionar:
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h3>Páginas Web Estáticas 📝</h3>
+            <p>
+              Son las páginas web más simples, creadas usando HTML y CSS sin
+              cambios automáticos en el contenido.
+            </p>
+            <p>
+              Ejemplo: Portafolios personales, páginas de presentación de
+              negocios
+            </p>
+            <p>
+              🟢Ventajas: Son rápidas y fáciles de crear; el contenido no cambia
+              con el tiempo.
+            </p>
+            <p>
+              🔴Desventajas: No permiten interacción con el usuario, y cada
+              cambio requiere actualización manual
+            </p>
+          </div>
+          <div class="card">
+            <h3>Páginas Web Dinámicas 🔄</h3>
+            <p>
+              Estas páginas son más interactivas y pueden cambiar de contenido
+              de acuerdo a la interacción del usuario o la base de datos del
+              sitio.
+            </p>
+            <p>
+              Ejemplo: Redes sociales, sitios de noticias, paneles de control de
+              usuarios.
+            </p>
+            <p>
+              🟢Ventajas: Ofrecen contenido personalizado y actualizado en
+              tiempo real.
+            </p>
+            <p>
+              🔴Desventajas: Su desarrollo y mantenimiento son más complejos, ya
+              que requieren programación y bases de datos.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Blogs 🖋️</h3>
+            <p>
+              Un blog es un sitio de publicaciones periódicas (artículos o
+              "posts") sobre uno o varios temas. Los blogs suelen mostrar los
+              artículos de forma cronológica, siendo los más recientes los
+              primeros.
+            </p>
+            <p>
+              Ejemplo: Blogs de tecnología, viajes, moda, desarrollo personal.
+            </p>
+            <p>
+              🟢Ventajas: Fomentan la interacción con los lectores mediante
+              comentarios y ofrecen contenido actualizado regularmente.
+            </p>
+            <p>
+              🔴Desventajas: Requieren actualizaciones constantes para mantener
+              a los lectores interesados.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Tiendas en Línea 🛒</h3>
+            <p>
+              Son sitios web diseñados para vender productos o servicios.
+              Incluyen funcionalidades como catálogos de productos, carritos de
+              compras y opciones de pago.
+            </p>
+            <p>Ejemplo: Amazon, tiendas de ropa, tiendas de electrónica.</p>
+            <p>
+              🟢Ventajas: Permiten la venta directa a los clientes en cualquier
+              momento.
+            </p>
+            <p>
+              🔴Desventajas: Suelen requerir una gestión constante de
+              inventarios y atención al cliente.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Wikis 📚</h3>
+            <p>
+              Son sitios colaborativos donde los usuarios pueden crear, editar y
+              organizar contenido. Su objetivo es recopilar conocimiento sobre
+              temas específicos de manera colectiva.
+            </p>
+            <p>Ejemplo: Wikipedia, wikis de videojuegos, wikis de software.</p>
+            <p>
+              🟢Ventajas: Permiten la construcción de conocimiento de forma
+              colaborativa y están en constante actualización.
+            </p>
+            <p>
+              🔴Desventajas: Pueden ser vulnerables a información incorrecta o
+              desactualizada sin una adecuada moderación.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Foros 💬</h3>
+            <p>
+              Sitios donde los usuarios pueden participar en discusiones sobre
+              distintos temas, creando y respondiendo a publicaciones.
+            </p>
+            <p>Ejemplo: Reddit, Stack Overflow.</p>
+            <p>
+              🟢Ventajas: Fomentan la participación y el intercambio de
+              conocimientos entre usuarios.
+            </p>
+            <p>
+              🔴Desventajas: Sin moderación, pueden llenarse de contenido
+              irrelevante o inapropiado.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="web_tecnologies">
+        <h2>Estructura de una Página Web 🛠️</h2>
+        <p class="p">
+          Una página web se construye usando tres tecnologías fundamentales que
+          trabajan juntas para dar estructura, estilo y funcionalidad
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h3>HTML (HyperText Markup Language) 📄</h3>
+            <p>
+              HTML es el lenguaje de marcado que se usa para estructurar el
+              contenido de una página web.
+            </p>
+            <p>
+              Rol en la página: Actúa como el esqueleto de la página. Define los
+              elementos básicos como encabezados, párrafos, imágenes, botones,
+              formularios y enlaces.
+            </p>
+            <p>
+              Ejemplo: &lt;h1&gt;, &lt;p&gt;, &lt;img&gt;, &lt;a&gt; son
+              etiquetas HTML que crean el contenido visible en la página.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>CSS (Cascading Style Sheets) 🎨</h3>
+            <p>
+              CSS es el lenguaje que se utiliza para estilizar y dar formato al
+              contenido HTML.
+            </p>
+            <p>
+              Rol en la página: Proporciona la "piel" de la página, controlando
+              colores, fuentes, márgenes, tamaños y la disposición de los
+              elementos para hacer que la web sea visualmente atractiva.
+            </p>
+            <p>
+              Ejemplo: Puedes cambiar el color de fondo, ajustar la disposición
+              de una galería o hacer que los botones cambien de color cuando el
+              usuario pasa el mouse sobre ellos.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>JavaScript 📜</h3>
+            <p>
+              JavaScript es un lenguaje de programación que se utiliza para
+              agregar interactividad a una página web.
+            </p>
+            <p>
+              Rol en la página: Da vida a los elementos de la página,
+              permitiendo animaciones, reacciones a las acciones del usuario, y
+              la manipulación del contenido en tiempo real.
+            </p>
+            <p>
+              Ejemplo: Formularios que muestran mensajes de error, menús que se
+              expanden, y contenido que se carga automáticamente sin actualizar
+              la página.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="planification">
+        <h2>Planificación 📝</h2>
+        <p class="p">
+          Antes de comenzar a construir una página web, es importante planificar
+          cómo se estructurará el contenido y enfocarse en la experiencia del
+          usuario (UX). Pregúntate: ¿Qué secciones necesita mi sitio? ¿Cómo
+          quiero que los usuarios naveguen por él? La planificación te ayuda a
+          definir una estructura clara y lógica que guiará a los usuarios y les
+          permitirá encontrar la información de manera fácil y rápida. <br />
+          <br />
+          Además, piensa en los objetivos de la página: ¿quieres informar,
+          vender, mostrar un portafolio? Diseña la estructura con estos
+          objetivos en mente para crear un sitio funcional y efectivo.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h3>Herramientas de diseño 🖌️</h3>
+            <p>
+              Existen diversas herramientas para crear maquetas y prototipos de
+              diseño antes de pasar al desarrollo de la página. Programas como
+              <strong>Figma</strong> y <strong>Adobe XD</strong> te permiten
+              visualizar cómo se verá tu sitio web y ajustar su diseño de forma
+              fácil. Estas herramientas te ayudan a:
+            </p>
+            <ul>
+              <li>Definir la disposición de los elementos en cada página.</li>
+              <li>Seleccionar colores, fuentes y estilos visuales.</li>
+              <li>
+                Crear prototipos interactivos para evaluar la experiencia del
+                usuario.
+              </li>
+            </ul>
+            <p>
+              Las maquetas te permiten planificar y ajustar el diseño antes de
+              codificar, ahorrando tiempo y mejorando el resultado final.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Consejos de diseño 🎨</h3>
+            <p>
+              Un buen diseño web no solo es atractivo, sino que también facilita
+              la navegación y la comprensión del contenido. Aquí algunos
+              consejos clave:
+            </p>
+            <ul>
+              <li>
+                <strong>Paleta de colores</strong>: Usa colores que transmitan
+                la identidad de tu página y que sean agradables a la vista.
+                Mantén una combinación de colores coherente para que el diseño
+                sea armonioso.
+              </li>
+              <li>
+                <strong>Tipografía</strong>: Selecciona fuentes legibles y
+                apropiadas para tu temática. Usa una jerarquía clara en los
+                tamaños de letra (encabezados, subtítulos, texto) para organizar
+                el contenido visualmente.
+              </li>
+              <li>
+                <strong>Disposición visual</strong>: Organiza los elementos de
+                manera lógica y fácil de seguir. Usa espacios en blanco para
+                evitar sobrecargar la página y guiar la vista del usuario hacia
+                lo más importante.
+              </li>
+            </ul>
+            <p>
+              Un diseño bien pensado mejora la experiencia del usuario y hace
+              que el contenido sea más atractivo y accesible.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="web_development">
+        <h2>Desarrollo Web 👨‍💻</h2>
+        <p class="p">
+          El desarrollo web es el proceso de construir y dar vida a una página
+          en internet, combinando estructura, estilo e interactividad. Para
+          crear una página web completa, necesitamos entender y aplicar tres
+          tecnologías clave: HTML, CSS y JavaScript. Además, existen frameworks
+          y librerías que ayudan a simplificar el proceso, permitiéndonos
+          construir desde páginas sencillas hasta aplicaciones web avanzadas. En
+          esta sección exploraremos cada una de estas herramientas, su rol en el
+          desarrollo web y cómo se integran para crear una experiencia atractiva
+          y funcional para el usuario.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h3>HTML 📄</h3>
+            <p>
+              HTML (HyperText Markup Language) es el lenguaje de marcado básico
+              que estructura el contenido de una página web. Con HTML, puedes
+              organizar el contenido en encabezados, párrafos, listas, imágenes,
+              enlaces y mucho más. Las etiquetas HTML son como los "bloques de
+              construcción" de una página.
+            </p>
+            <p>
+              Ejemplo: Usando etiquetas como &lt;h1&gt;, &lt;p&gt;, y
+              &lt;img&gt;, puedes construir la estructura visual de tu sitio.
+            </p>
+            <p><strong>Ejemplo real:</strong></p>
+            <p>
+              <code>&lt;h1&gt;Bienvenido a Mi Sitio&lt;/h1&gt;</code><br />
+              <code>&lt;p&gt;Este es un párrafo de bienvenida.&lt;/p&gt;</code
+              ><br />
+              <strong>Resultado:</strong>
+            </p>
+            <p><strong>Bienvenido a Mi Sitio</strong></p>
+            <p>Este es un párrafo de bienvenida.</p>
+          </div>
+
+          <div class="card">
+            <h3>CSS 🎨</h3>
+            <p>
+              CSS (Cascading Style Sheets) es el lenguaje de estilo que da
+              diseño a tu página. Permite personalizar colores, fuentes,
+              márgenes, tamaños, y más. Con CSS, puedes crear un diseño
+              visualmente atractivo que sea coherente en toda la página. Las
+              clases, IDs y propiedades como flexbox son herramientas potentes
+              de CSS que ayudan a posicionar y organizar los elementos en la
+              pantalla.
+            </p>
+            <p>
+              Ejemplo: Puedes dar color de fondo a una sección, ajustar la
+              alineación de texto o crear una galería de imágenes.
+            </p>
+            <p><strong>Ejemplo real:</strong></p>
+            <p>
+              <code>h1 { color: blue; }</code><br />
+              <code>p { font-size: 16px; }</code><br />
+              <strong>Resultado:</strong>
+            </p>
+            <p style="color: blue; font-size: 24px">
+              <strong>Bienvenido a Mi Sitio</strong>
+            </p>
+            <p style="font-size: 16px">
+              Este es un párrafo de bienvenida con estilo CSS.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>JavaScript 📜</h3>
+            <p>
+              JavaScript es un lenguaje de programación que añade interactividad
+              a una página web. Con JavaScript, puedes hacer que los elementos
+              respondan a la interacción del usuario, como hacer aparecer
+              ventanas emergentes, validar formularios o crear animaciones. Esto
+              hace que una página pase de ser estática a dinámica y atractiva.
+            </p>
+            <p>
+              Ejemplo: Un botón que muestra un mensaje al hacer clic, un
+              formulario que muestra mensajes de error en tiempo real, o una
+              lista que se actualiza automáticamente sin recargar la página.
+            </p>
+            <p><strong>Ejemplo real:</strong></p>
+            <p>
+              <code
+                >&lt;button onclick="alert('¡Hola!')"&gt;Haz clic
+                aquí&lt;/button&gt;</code
+              ><br />
+              <strong>Resultado:</strong>
+            </p>
+            <button onclick="alert('¡Hola!')">Haz clic aquí</button>
+          </div>
+
+          <div class="card">
+            <h3>Frameworks y Librerías 📚</h3>
+            <p>
+              Para desarrollar de forma más rápida y eficiente, muchos
+              desarrolladores usan frameworks y librerías. Estos son conjuntos
+              de código predefinido que ayudan a evitar trabajo repetitivo y a
+              estructurar aplicaciones de una manera más organizada.
+            </p>
+            <ul>
+              <li>
+                <strong>Bootstrap</strong>: Un framework de CSS que facilita el
+                diseño visual, especialmente para páginas responsivas.
+              </li>
+              <li>
+                <strong>React</strong>: Una librería de JavaScript creada por
+                Facebook, ideal para construir interfaces de usuario
+                interactivas y aplicaciones web dinámicas.
+              </li>
+              <li>
+                <strong>Vue</strong>: Otro framework de JavaScript, conocido por
+                su simplicidad y flexibilidad, que facilita la creación de
+                aplicaciones dinámicas.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="host">
+        <h2>Publicación y Hospedaje ⏫</h2>
+        <p class="p">
+          Publicar y hospedar una página web es el último paso para que esté
+          disponible en internet. Este proceso implica elegir un dominio y un
+          servicio de hosting adecuados, subir los archivos al servidor y
+          optimizar el sitio para que cargue rápido y funcione de manera
+          eficiente. En esta sección, exploraremos cómo seleccionar un buen
+          proveedor de hosting, las diferentes opciones para subir tu sitio y
+          algunos consejos clave de optimización para mejorar la experiencia del
+          usuario y el rendimiento general de la página.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h3>Dominios y Hosting 🌐</h3>
+            <p>
+              Para que una página web esté disponible en internet, se necesita
+              un <strong>dominio</strong> y un
+              <strong>servicio de hosting</strong>.
+            </p>
+            <ul>
+              <li>
+                <strong>Dominio</strong>: Es la dirección que los usuarios
+                escribirán en el navegador para acceder a tu sitio, como
+                <code>www.tusitio.com</code>. Los dominios son únicos y suelen
+                registrarse anualmente a través de proveedores de dominios.
+              </li>
+              <li>
+                <strong>Hosting</strong>: Es el espacio donde se almacenan los
+                archivos de tu página web. Al contratar un servicio de hosting,
+                estás alquilando un espacio en un servidor que estará disponible
+                en línea las 24 horas.
+              </li>
+            </ul>
+            <p>
+              <strong>Consejo</strong>: Al elegir un proveedor de hosting,
+              asegúrate de que ofrezca buena velocidad, seguridad y un soporte
+              confiable.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Subida al Servidor 🚀</h3>
+            <p>
+              Una vez que tienes tu dominio y hosting, necesitas subir los
+              archivos de tu página al servidor. Esto se hace mediante
+              herramientas como <strong>FTP</strong> o a través de servicios
+              específicos de hosting. Aquí algunas opciones populares:
+            </p>
+            <ul>
+              <li>
+                <strong>FTP</strong>: Usando un programa como FileZilla, puedes
+                conectar tu computadora con el servidor y transferir tus
+                archivos de forma rápida.
+              </li>
+              <li>
+                <strong>GitHub Pages</strong>: Ideal para proyectos de código
+                abierto y sitios estáticos. Puedes subir tu proyecto desde
+                GitHub, y se publicará en línea con una URL de GitHub.
+              </li>
+              <li>
+                <strong>Netlify o Vercel</strong>: Plataformas de hospedaje que
+                permiten publicar sitios web con solo arrastrar y soltar
+                archivos, además de brindar integración automática con
+                repositorios como GitHub. Son ideales para proyectos front-end y
+                aplicaciones web.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Optimización ⚡</h3>
+            <p>
+              La velocidad y el rendimiento de tu sitio web son factores
+              cruciales para una buena experiencia de usuario y para SEO. Aquí
+              algunos consejos de optimización:
+            </p>
+            <ul>
+              <li>
+                <strong>Reducir el tamaño de las imágenes</strong>: Usa formatos
+                comprimidos como JPEG o WebP y ajusta el tamaño de las imágenes
+                antes de subirlas.
+              </li>
+              <li>
+                <strong>Minificar archivos</strong>: Reduce el tamaño de
+                archivos CSS, JavaScript y HTML eliminando espacios y
+                comentarios innecesarios.
+              </li>
+              <li>
+                <strong>Cargar contenido de forma asíncrona</strong>: Evita que
+                todo el contenido se cargue de golpe, utiliza el "lazy loading"
+                para cargar imágenes o secciones solo cuando el usuario las
+                necesite.
+              </li>
+              <li>
+                <strong>Usar un CDN (Content Delivery Network)</strong>:
+                Distribuye los archivos en servidores de todo el mundo para
+                mejorar el tiempo de carga en diferentes ubicaciones.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <span>Gracias por leer ♥</span>
+      </footer>
+    </main>
+  </body>
+</html>
